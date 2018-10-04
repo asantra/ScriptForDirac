@@ -1,0 +1,9 @@
+JobName = "LFNDATA";
+Executable = "SHNAME";
+StdOutput = "std.out";
+StdError = "std.err";
+InputSandbox = {"SHNAME", "CFGNAME", "GANGANAME"};
+InputData = {"DATA"};
+OutputData = {"std.out","*.root", "*.txt"};
+OutputSandbox = {"std.out","std.err", "*.log", "*.root", "*.txt"};
+OutputSE = "UKI-LT2-QMUL2-disk";
